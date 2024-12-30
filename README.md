@@ -40,7 +40,39 @@ IoT Smart Building Management System은 ATmega128, STM32, Raspberry Pi, Arduino�
 1. **센서 데이터 수집:** DHT11과 CDS 센서를 통해 실내 환경 데이터 수집  
 2. **데이터 처리 및 저장:** 수집된 데이터는 Raspberry Pi에서 처리되어 MariaDB에 저장  
 3. **액추에이터 제어:** 환경 조건에 따라 팬, 램프, 블라인드, 창문을 자동 또는 수동 제어  
-4. **사용자 인터페이스:** 모바일 앱이나 웹 인터페이스를 통해 실시간 모니터링 및 제어 가능  
+4. **사용자 인터페이스:** 모바일 앱이나 웹 인터페이스를 통해 실시간 모니터링 및 제어 가능
+---
+
+<img width="849" alt="스크린샷 2024-12-30 오후 8 08 14" src="https://github.com/user-attachments/assets/684d5298-15bc-4d19-a939-53ab0d884360" />
+
+---
+
+## 🛠️설계
+<img width="850" alt="스크린샷 2024-12-30 오후 8 05 28" src="https://github.com/user-attachments/assets/c8b5df8d-0181-4b16-8c84-9c6a2c036bb0" />
+
+<img width="850" alt="스크린샷 2024-12-30 오후 8 05 53" src="https://github.com/user-attachments/assets/67162b65-dc1b-49c2-a9fd-984d4e24085d" />
+
+<img width="851" alt="스크린샷 2024-12-30 오후 8 06 18" src="https://github.com/user-attachments/assets/3945718e-1e07-4f44-b997-f77b77925e42" />
+
+<img width="850" alt="스크린샷 2024-12-30 오후 8 06 33" src="https://github.com/user-attachments/assets/07e01414-c6ba-4794-9a45-0993d04f7959" />
+
+<img width="850" alt="스크린샷 2024-12-30 오후 8 06 50" src="https://github.com/user-attachments/assets/0a40cb25-fd70-4b27-b6df-131ae2caa1d1" />
+
+<img width="850" alt="스크린샷 2024-12-30 오후 8 07 07" src="https://github.com/user-attachments/assets/4d0c4c9c-9272-499f-a249-1ee21ecad4ff" />
+
+<img width="850" alt="스크린샷 2024-12-30 오후 8 07 25" src="https://github.com/user-attachments/assets/1de21b69-bc0a-4db4-9e8b-4c355421e291" />
+
+---
+
+## MariaDB
+
+### 각 층별 엑추에이터 테이블 구성 및 데이터 기록
+<img width="368" alt="스크린샷 2024-12-30 오후 7 58 12" src="https://github.com/user-attachments/assets/08432468-ca6c-4498-8f33-a4c0e89afdff" />
+
+### Actuator State 테이블
+<img width="234" alt="스크린샷 2024-12-30 오후 8 00 51" src="https://github.com/user-attachments/assets/2937824a-87e5-4fdf-8de5-3f4752565b85" />
+### Sensor Data 그래프
+<img width="406" alt="스크린샷 2024-12-30 오후 8 01 06" src="https://github.com/user-attachments/assets/a55482ec-3dc2-4f58-8f28-7dbad4e3310d" />
 
 ---
 
