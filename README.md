@@ -54,7 +54,7 @@ IoT Smart Building Management System은 ATmega128, STM32, Raspberry Pi, Arduino�
 - Arduino의 Wi-Fi가 간헐적으로 끊기는 문제가 발생하여 원활한 프로젝ㄷ트 진행이 어려웠음.
 - 네트워크에 다수의 사용자가 접속하면, 네트워크 부하로 인해 응답 속도가 느려지는 문제가 발생함.
 
-### 향후 개발 방향
+## 향후 개발 방향
 - 보안 강화
     - 암호화 통신 및 사용자 인증 도입
 - 에너지 효율
