@@ -71,6 +71,7 @@ IoT Smart Building Management System은 ATmega128, STM32, Raspberry Pi, Arduino�
 
 ### Actuator State 테이블
 <img width="234" alt="스크린샷 2024-12-30 오후 8 00 51" src="https://github.com/user-attachments/assets/2937824a-87e5-4fdf-8de5-3f4752565b85" />
+
 ### Sensor Data 그래프
 <img width="406" alt="스크린샷 2024-12-30 오후 8 01 06" src="https://github.com/user-attachments/assets/a55482ec-3dc2-4f58-8f28-7dbad4e3310d" />
 
