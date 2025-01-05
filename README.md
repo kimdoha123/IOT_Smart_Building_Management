@@ -18,7 +18,7 @@ IoT Smart Building Management System은 STM32, Raspberry Pi, Arduino를 활용�
 ## 🛠️ 개발 환경
 
 ### 📌 하드웨어 구성  
-- **Client:** Aduino
+- **Client:** Arduino
 - **Controller** STM32F411RE 
 - **Server:** Raspberry Pi  
 - **Sensor:** DHT11 (온습도 센서), CDS (조도 센서)  
