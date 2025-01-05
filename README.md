@@ -2,7 +2,7 @@
 
 ## 📌 프로젝트 개요
 
-IoT Smart Building Management System은 ATmega128, STM32, Raspberry Pi, Arduino를 활용하여  
+IoT Smart Building Management System은 STM32, Raspberry Pi, Arduino를 활용하여  
 건물 내 환경 데이터를 모니터링하고 원격으로 제어하는 스마트 빌딩 관리 시스템입니다.  
 센서와 액추에이터를 통해 실내 환경을 최적화하고 사용자 편의성을 향상시키는 것을 목표로 합니다.
 
@@ -18,7 +18,7 @@ IoT Smart Building Management System은 ATmega128, STM32, Raspberry Pi, Arduino�
 ## 🛠️ 개발 환경
 
 ### 📌 하드웨어 구성  
-- **Client:** ATmega128  
+- **Client:** Aduino
 - **Controller** STM32F411RE 
 - **Server:** Raspberry Pi  
 - **Sensor:** DHT11 (온습도 센서), CDS (조도 센서)  
